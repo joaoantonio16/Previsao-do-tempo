@@ -19,7 +19,7 @@ async function buscarCidade(cidade) {
     colocarNaTela(dados)
 }
 
-function cliqueNoBotao(){
+function cliqueiNoBotao(){
     let cidade = document.querySelector(".input-cidade").value
 
     buscarCidade(cidade)
